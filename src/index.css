@@ -1,0 +1,152 @@
+
+
+/* 
+ * {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "raleway";
+} */
+
+.tags {
+  margin-right: 4px;
+  background-color: rgb(218, 216, 216);
+  padding: 5px;
+  border-radius: 20% ;
+}
+
+#tag-input-container {
+  display: flex
+
+}
+
+#tag-container {
+  display: flex
+}
+
+.page-container{
+
+
+}
+
+.hide-grades {
+  display: none;
+}
+
+.hide-tags {
+  display: none;
+}
+
+.icon-size {
+  width:44px !important;
+  height: 90px;
+  color: rgb(202, 201, 201);
+}
+
+#name_input {
+  width: 99.4%;
+  border-color: white;
+  height: 40px;
+}
+
+#tag_input {
+  border-top : 0;
+  border-right: 0;
+  border-left: 0;
+  width: 50%;
+  border-bottom-color: rgb(202, 201, 201);
+  height: 20px;
+  margin-top: 10px;
+
+
+}
+
+#search_tag_input {
+
+  width: 99.4%;
+  border-color: white;
+  height: 40px;
+
+}
+
+.student-data-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-color: rgb(202, 201, 201);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+}
+.student-outer-container{
+  height: 700px;
+  overflow: auto;
+  background-color: white;
+  border-color: rgb(202, 201, 201);
+  border-width: 1px;
+  border-style: solid;
+ 
+
+}
+
+
+#icon-container {
+ padding-right: 20px;
+ padding-top: 40px;
+} 
+.student-container{
+  display: flex;
+  flex-direction: row;
+  /* border-bottom-color: rgb(202, 201, 201);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid; */
+ 
+}
+
+.data-inner-container{
+
+}
+
+.data-inner-container p {
+  width: fit-content;
+  color: grey;
+}
+
+.img-container {
+  padding: 48px;
+}
+img{
+
+  border-color: rgb(202, 201, 201);
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 20px;
+  height: 223px;
+  border-radius: 50% ;
+  width: 209px;
+  
+}
+
+.data-container{
+
+}
+
+h1 {
+  text-transform: uppercase;
+}
+body {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 123px;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #bdbbbb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
